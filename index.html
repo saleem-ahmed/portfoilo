@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfoilo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="">
+          <h2>Portf<span id="style">oilo.</span></h2>
+        </a>
+      </div>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="#">Services</a></li>
+        <!-- <li><a href="#">Testimonial</a></li> -->
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="header-home">
+    <div class="container">
+      <h2>My Name is Ahmed Saleem</h2>
+      <h1>I am <span class="auto-type"></span>...</h1>
+    </div>
+  </div>
+  <!-- <div class="msg">
+    <i class="fa fa-circle-envelope"></i>
+  </div> -->
+  <div class="home-about">
+    
+    <div class="about-content">
+      <h3>About</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, obcaecati incidunt. Dolores ab tenetur totam
+        neque! Ex, labore. Dolor dicta quod, in enim deleniti maxime maiores perspiciatis quos laudantium error?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, obcaecati incidunt. Dolores ab tenetur totam
+        neque! Ex, labore. Dolor dicta quod, in enim deleniti maxime maiores perspiciatis quos laudantium error?
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="./images/ahmed.jpg" alt="">
+    </div>
+  </div>
+  <div class="service">
+    <div class="service-title">
+      <h2>service</h2>
+    </div>
+    <div class="service-content">
+      <div class="tile">
+        <img
+          src='./images/work-1.png'/>
+        <div class="text">
+          <h1>Lorem ipsum.</h1>
+          <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+          <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken
+            meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+        </div>
+      </div>
+      <div class="tile">
+        <img
+          src='./images/work-2.png' />
+        <div class="text">
+          <h1>Lorem ipsum.</h1>
+          <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+          <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken
+            meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog">
+    <div class="blog-title">
+      <h2>Blogs</h2>
+    </div>
+    <div class="blog-content">
+      
+      <div class="card">
+        <img src="./images/work-1.png" alt="">
+        <div class="inner-content">
+          <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <span>date</span>
+        <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/work-1.png" alt="">
+        <div class="inner-content">
+          <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <span>date</span>
+        <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/work-1.png" alt="">
+        <div class="inner-content">
+          <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <span>date</span>
+        <button>Read More</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="conact">
+    <div class="form">
+      <form action="">
+        <h2>Get in touch</h2>
+        <input type="text" placeholder="Your Name*">
+        <input type="text" placeholder="Your email">
+        <input type="text" placeholder="Your form">
+        <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="logo">
+      <a href="">
+        <h2>Portf<span id="style">oilo.</span></h2>
+      </a>
+    </div>
+    <div class="socails">
+      <img src="./images/github.svg" alt="">
+      <img src="./images/1929178_upwork_icon.svg" alt="">
+      <img src="./images/fi.svg" alt="">
+    </div>
+    <p>Terms and Conditions of Use • Privacy Policy • © 2022 Portfoilo</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Freelancer", "Developer"],
+      typeSpeed: 150,
+      backspeed: 150,
+      loop: true,
+    });
+  </script>
+
+
+</body>
+
+</html>
